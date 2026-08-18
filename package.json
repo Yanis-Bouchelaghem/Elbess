@@ -1,9 +1,25 @@
 {
   "name": "elbess",
   "version": "1.0.0",
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "pnpm -r exec tsc --noEmit",
+    "check": "pnpm lint && pnpm typecheck",
+    "dev": "pnpm --filter @elbess/api dev",
+    "db:up": "docker compose up -d",
+    "db:down": "docker compose down"
+  },
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.28.2",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint": "^10.8.1",
+    "typescript": "npm:@typescript/typescript6@^6.0.2",
+    "typescript-eslint": "^8.67.0"
+  },
+  "type": "module"
 }

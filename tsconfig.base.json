@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    // Environment
+    "module": "nodenext",
+    "target": "esnext",
+
+    // Other outputs
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Stricter typechecking
+    "strict": true,
+    "noUncheckedIndexedAccess": false,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitOverride": true,
+
+    // Recommended
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+
+    // Write the real filename (./foo.ts); tsc rewrites it to ./foo.js on emit.
+    "allowImportingTsExtensions": true,
+    "rewriteRelativeImportExtensions": true
+  }
+}
