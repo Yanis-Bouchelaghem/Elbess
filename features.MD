@@ -1,0 +1,6 @@
+- Login -> land on listings page
+- Logout
+- Listings page with basic filters for price
+- Create a new listing with description, price and image upload
+- Listing detail page + buy button
+- Buy button reserves the listing.
