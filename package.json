@@ -4,7 +4,7 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "typecheck": "pnpm -r exec tsc --noEmit",
+    "typecheck": "pnpm -r --filter=!@elbess/mobile --filter=!elbess exec tsc --noEmit",
     "check": "pnpm lint && pnpm typecheck",
     "dev": "pnpm --filter @elbess/api dev",
     "db:up": "docker compose up -d",

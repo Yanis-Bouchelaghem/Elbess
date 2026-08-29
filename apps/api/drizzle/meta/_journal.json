@@ -15,6 +15,27 @@
       "when": 1787995785188,
       "tag": "0001_magenta_hydra",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1788026956372,
+      "tag": "0002_lovely_mimic",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1788027315021,
+      "tag": "0003_stiff_psylocke",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1788028029843,
+      "tag": "0004_light_purifiers",
+      "breakpoints": true
     }
   ]
 }

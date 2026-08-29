@@ -1,0 +1,2 @@
+ALTER TABLE "listings" ADD COLUMN "reserved_at" timestamp with time zone;--> statement-breakpoint
+ALTER TABLE "listings" ADD CONSTRAINT "listings_reserved_requires_buyer" CHECK ("listings"."status" <> 'reserved' OR ("listings"."reserved_by" IS NOT NULL AND "listings"."reserved_at" IS NOT NULL));
